@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		970202711975D7FD000E043E /* World's smallest wine glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970202701975D7FD000E043E /* World's smallest wine glass.jpg */; };
+		9702027A197662B5000E043E /* pdfile.pd in Resources */ = {isa = PBXBuildFile; fileRef = 97020279197662B5000E043E /* pdfile.pd */; };
+		9705B9511976685D00CDC6EC /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9705B94C1976684C00CDC6EC /* libpd-ios.a */; };
+		971BA325197064A20084CFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA324197064A20084CFD2 /* AppDelegate.swift */; };
+		971BA327197064A20084CFD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA326197064A20084CFD2 /* ViewController.swift */; };
+		971BA32A197064A20084CFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971BA328197064A20084CFD2 /* Main.storyboard */; };
+		971BA338197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA337197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift */; };
+		971BA34D197065040084CFD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971BA34C197065040084CFD2 /* AVFoundation.framework */; };
+		971BA3511970650D0084CFD2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971BA3501970650D0084CFD2 /* AudioToolbox.framework */; };
+		979A353319738807009E1479 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979A353219738807009E1479 /* Image.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9705B94B1976684C00CDC6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		9705B94D1976684C00CDC6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		9705B94F1976685800CDC6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		971BA332197064A20084CFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 971BA317197064A20084CFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 971BA31E197064A20084CFD2;
+			remoteInfo = GlassRubbingApp.v1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		970202701975D7FD000E043E /* World's smallest wine glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World's smallest wine glass.jpg"; sourceTree = "<group>"; };
+		97020279197662B5000E043E /* pdfile.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pdfile.pd; sourceTree = "<group>"; };
+		9705B9461976684C00CDC6EC /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../../Documents/pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
+		971BA31F197064A20084CFD2 /* GlassRubbingApp.v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassRubbingApp.v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		971BA323197064A20084CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971BA324197064A20084CFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		971BA326197064A20084CFD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		971BA329197064A20084CFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		971BA331197064A20084CFD2 /* GlassRubbingApp.v1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlassRubbingApp.v1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		971BA336197064A20084CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		971BA337197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassRubbingApp_v1Tests.swift; sourceTree = "<group>"; };
+		971BA34C197065040084CFD2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		971BA34E197065070084CFD2 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		971BA3501970650D0084CFD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		971BA354197065590084CFD2 /* GlassRubbingApp.v1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlassRubbingApp.v1-Bridging-Header.h"; sourceTree = "<group>"; };
+		979A353219738807009E1479 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		971BA31C197064A20084CFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9705B9511976685D00CDC6EC /* libpd-ios.a in Frameworks */,
+				971BA3511970650D0084CFD2 /* AudioToolbox.framework in Frameworks */,
+				971BA34D197065040084CFD2 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BA32E197064A20084CFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9705B9471976684C00CDC6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9705B94C1976684C00CDC6EC /* libpd-ios.a */,
+				9705B94E1976684C00CDC6EC /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971BA316197064A20084CFD2 = {
+			isa = PBXGroup;
+			children = (
+				971BA3501970650D0084CFD2 /* AudioToolbox.framework */,
+				971BA34E197065070084CFD2 /* AudioUnit.framework */,
+				971BA34C197065040084CFD2 /* AVFoundation.framework */,
+				971BA321197064A20084CFD2 /* GlassRubbingApp.v1 */,
+				971BA334197064A20084CFD2 /* GlassRubbingApp.v1Tests */,
+				971BA320197064A20084CFD2 /* Products */,
+				9705B9461976684C00CDC6EC /* libpd.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		971BA320197064A20084CFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971BA31F197064A20084CFD2 /* GlassRubbingApp.v1.app */,
+				971BA331197064A20084CFD2 /* GlassRubbingApp.v1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		971BA321197064A20084CFD2 /* GlassRubbingApp.v1 */ = {
+			isa = PBXGroup;
+			children = (
+				97020279197662B5000E043E /* pdfile.pd */,
+				971BA324197064A20084CFD2 /* AppDelegate.swift */,
+				971BA326197064A20084CFD2 /* ViewController.swift */,
+				971BA328197064A20084CFD2 /* Main.storyboard */,
+				979A353219738807009E1479 /* Image.xcassets */,
+				970202701975D7FD000E043E /* World's smallest wine glass.jpg */,
+				971BA322197064A20084CFD2 /* Supporting Files */,
+				971BA354197065590084CFD2 /* GlassRubbingApp.v1-Bridging-Header.h */,
+			);
+			path = GlassRubbingApp.v1;
+			sourceTree = "<group>";
+		};
+		971BA322197064A20084CFD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971BA323197064A20084CFD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		971BA334197064A20084CFD2 /* GlassRubbingApp.v1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				971BA337197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift */,
+				971BA335197064A20084CFD2 /* Supporting Files */,
+			);
+			path = GlassRubbingApp.v1Tests;
+			sourceTree = "<group>";
+		};
+		971BA335197064A20084CFD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971BA336197064A20084CFD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		971BA31E197064A20084CFD2 /* GlassRubbingApp.v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971BA33B197064A20084CFD2 /* Build configuration list for PBXNativeTarget "GlassRubbingApp.v1" */;
+			buildPhases = (
+				971BA31B197064A20084CFD2 /* Sources */,
+				971BA31C197064A20084CFD2 /* Frameworks */,
+				971BA31D197064A20084CFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9705B9501976685800CDC6EC /* PBXTargetDependency */,
+			);
+			name = GlassRubbingApp.v1;
+			productName = GlassRubbingApp.v1;
+			productReference = 971BA31F197064A20084CFD2 /* GlassRubbingApp.v1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		971BA330197064A20084CFD2 /* GlassRubbingApp.v1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 971BA33E197064A20084CFD2 /* Build configuration list for PBXNativeTarget "GlassRubbingApp.v1Tests" */;
+			buildPhases = (
+				971BA32D197064A20084CFD2 /* Sources */,
+				971BA32E197064A20084CFD2 /* Frameworks */,
+				971BA32F197064A20084CFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				971BA333197064A20084CFD2 /* PBXTargetDependency */,
+			);
+			name = GlassRubbingApp.v1Tests;
+			productName = GlassRubbingApp.v1Tests;
+			productReference = 971BA331197064A20084CFD2 /* GlassRubbingApp.v1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		971BA317197064A20084CFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Cluster 5";
+				TargetAttributes = {
+					971BA31E197064A20084CFD2 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = TX52L3TFYW;
+					};
+					971BA330197064A20084CFD2 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 971BA31E197064A20084CFD2;
+					};
+				};
+			};
+			buildConfigurationList = 971BA31A197064A20084CFD2 /* Build configuration list for PBXProject "GlassRubbingApp.v1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 971BA316197064A20084CFD2;
+			productRefGroup = 971BA320197064A20084CFD2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9705B9471976684C00CDC6EC /* Products */;
+					ProjectRef = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				971BA31E197064A20084CFD2 /* GlassRubbingApp.v1 */,
+				971BA330197064A20084CFD2 /* GlassRubbingApp.v1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9705B94C1976684C00CDC6EC /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = 9705B94B1976684C00CDC6EC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9705B94E1976684C00CDC6EC /* libpd-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-osx.a";
+			remoteRef = 9705B94D1976684C00CDC6EC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		971BA31D197064A20084CFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970202711975D7FD000E043E /* World's smallest wine glass.jpg in Resources */,
+				971BA32A197064A20084CFD2 /* Main.storyboard in Resources */,
+				979A353319738807009E1479 /* Image.xcassets in Resources */,
+				9702027A197662B5000E043E /* pdfile.pd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BA32F197064A20084CFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		971BA31B197064A20084CFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BA327197064A20084CFD2 /* ViewController.swift in Sources */,
+				971BA325197064A20084CFD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971BA32D197064A20084CFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				971BA338197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9705B9501976685800CDC6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = 9705B94F1976685800CDC6EC /* PBXContainerItemProxy */;
+		};
+		971BA333197064A20084CFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 971BA31E197064A20084CFD2 /* GlassRubbingApp.v1 */;
+			targetProxy = 971BA332197064A20084CFD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		971BA328197064A20084CFD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				971BA329197064A20084CFD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		971BA339197064A20084CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		971BA33A197064A20084CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		971BA33C197064A20084CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GlassRubbingApp.v1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GlassRubbingApp.v1/GlassRubbingApp.v1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "/Users/cluster5/Documents/pd-for-ios/libpd/**";
+			};
+			name = Debug;
+		};
+		971BA33D197064A20084CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = GlassRubbingApp.v1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GlassRubbingApp.v1/GlassRubbingApp.v1-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "/Users/cluster5/Documents/pd-for-ios/libpd/**";
+			};
+			name = Release;
+		};
+		971BA33F197064A20084CFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GlassRubbingApp.v1.app/GlassRubbingApp.v1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlassRubbingApp.v1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		971BA340197064A20084CFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GlassRubbingApp.v1.app/GlassRubbingApp.v1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GlassRubbingApp.v1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		971BA31A197064A20084CFD2 /* Build configuration list for PBXProject "GlassRubbingApp.v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BA339197064A20084CFD2 /* Debug */,
+				971BA33A197064A20084CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971BA33B197064A20084CFD2 /* Build configuration list for PBXNativeTarget "GlassRubbingApp.v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BA33C197064A20084CFD2 /* Debug */,
+				971BA33D197064A20084CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		971BA33E197064A20084CFD2 /* Build configuration list for PBXNativeTarget "GlassRubbingApp.v1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				971BA33F197064A20084CFD2 /* Debug */,
+				971BA340197064A20084CFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 971BA317197064A20084CFD2 /* Project object */;
+}
