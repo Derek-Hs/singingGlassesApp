@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         
         // stop playing when touch is gone
         if(sender.numberOfTouches()==0) {
+            println("Should stop now!")
             PdBase.sendFloat(0, toReceiver: "loudness")
         }
         
@@ -46,10 +47,9 @@ class ViewController: UIViewController {
         else {
             PdBase.sendFloat(Float(speed/3000), toReceiver: "loudness")
         }
-        println(speed/3000)
-        if(speed < 150) {
-            audioController.active = false
-        }
+        /*if(speed < 150) {
+            PdBase.sendFloat(0, toReceiver: "loudness")
+        }*/
     }
 
     @IBAction func slider1action(sender: UISlider) {
