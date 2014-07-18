@@ -8,39 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		970202711975D7FD000E043E /* World's smallest wine glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970202701975D7FD000E043E /* World's smallest wine glass.jpg */; };
-		9705B9511976685D00CDC6EC /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9705B94C1976684C00CDC6EC /* libpd-ios.a */; };
 		971BA325197064A20084CFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA324197064A20084CFD2 /* AppDelegate.swift */; };
 		971BA327197064A20084CFD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA326197064A20084CFD2 /* ViewController.swift */; };
 		971BA32A197064A20084CFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971BA328197064A20084CFD2 /* Main.storyboard */; };
 		971BA338197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA337197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift */; };
 		971BA34D197065040084CFD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971BA34C197065040084CFD2 /* AVFoundation.framework */; };
 		971BA3511970650D0084CFD2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971BA3501970650D0084CFD2 /* AudioToolbox.framework */; };
-		978C5B8819783AC100FB7B9C /* pdfile.pd in Resources */ = {isa = PBXBuildFile; fileRef = 978C5B8719783AC100FB7B9C /* pdfile.pd */; };
+		974D4F17197981A50072986E /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 974D4F12197981740072986E /* libpd-ios.a */; };
 		979A353319738807009E1479 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979A353219738807009E1479 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9705B94B1976684C00CDC6EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = "libpd-ios";
-		};
-		9705B94D1976684C00CDC6EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 119013AB1486450C00086F19;
-			remoteInfo = "libpd-osx";
-		};
-		9705B94F1976685800CDC6EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "libpd-ios";
-		};
 		971BA332197064A20084CFD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 971BA317197064A20084CFD2 /* Project object */;
@@ -48,11 +26,31 @@
 			remoteGlobalIDString = 971BA31E197064A20084CFD2;
 			remoteInfo = GlassRubbingApp.v1;
 		};
+		974D4F11197981740072986E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974D4F0C197981740072986E /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		974D4F13197981740072986E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974D4F0C197981740072986E /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 119013AB1486450C00086F19;
+			remoteInfo = "libpd-osx";
+		};
+		974D4F151979819F0072986E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974D4F0C197981740072986E /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		970202701975D7FD000E043E /* World's smallest wine glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World's smallest wine glass.jpg"; sourceTree = "<group>"; };
-		9705B9461976684C00CDC6EC /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../../Documents/pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
 		971BA31F197064A20084CFD2 /* GlassRubbingApp.v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassRubbingApp.v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		971BA323197064A20084CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971BA324197064A20084CFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +63,7 @@
 		971BA34E197065070084CFD2 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		971BA3501970650D0084CFD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		971BA354197065590084CFD2 /* GlassRubbingApp.v1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlassRubbingApp.v1-Bridging-Header.h"; sourceTree = "<group>"; };
-		978C5B8719783AC100FB7B9C /* pdfile.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pdfile.pd; path = ../../../../pdfile.pd; sourceTree = "<group>"; };
+		974D4F0C197981740072986E /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = libpd/libpd.xcodeproj; sourceTree = "<group>"; };
 		979A353219738807009E1479 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9705B9511976685D00CDC6EC /* libpd-ios.a in Frameworks */,
+				974D4F17197981A50072986E /* libpd-ios.a in Frameworks */,
 				971BA3511970650D0084CFD2 /* AudioToolbox.framework in Frameworks */,
 				971BA34D197065040084CFD2 /* AVFoundation.framework in Frameworks */,
 			);
@@ -90,15 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9705B9471976684C00CDC6EC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9705B94C1976684C00CDC6EC /* libpd-ios.a */,
-				9705B94E1976684C00CDC6EC /* libpd-osx.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		971BA316197064A20084CFD2 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +97,7 @@
 				971BA321197064A20084CFD2 /* GlassRubbingApp.v1 */,
 				971BA334197064A20084CFD2 /* GlassRubbingApp.v1Tests */,
 				971BA320197064A20084CFD2 /* Products */,
-				9705B9461976684C00CDC6EC /* libpd.xcodeproj */,
+				974D4F0C197981740072986E /* libpd.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +113,6 @@
 		971BA321197064A20084CFD2 /* GlassRubbingApp.v1 */ = {
 			isa = PBXGroup;
 			children = (
-				978C5B8719783AC100FB7B9C /* pdfile.pd */,
 				971BA324197064A20084CFD2 /* AppDelegate.swift */,
 				971BA326197064A20084CFD2 /* ViewController.swift */,
 				971BA328197064A20084CFD2 /* Main.storyboard */,
@@ -161,6 +149,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		974D4F0D197981740072986E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974D4F12197981740072986E /* libpd-ios.a */,
+				974D4F14197981740072986E /* libpd-osx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,7 +172,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9705B9501976685800CDC6EC /* PBXTargetDependency */,
+				974D4F161979819F0072986E /* PBXTargetDependency */,
 			);
 			name = GlassRubbingApp.v1;
 			productName = GlassRubbingApp.v1;
@@ -232,8 +229,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9705B9471976684C00CDC6EC /* Products */;
-					ProjectRef = 9705B9461976684C00CDC6EC /* libpd.xcodeproj */;
+					ProductGroup = 974D4F0D197981740072986E /* Products */;
+					ProjectRef = 974D4F0C197981740072986E /* libpd.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -245,18 +242,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9705B94C1976684C00CDC6EC /* libpd-ios.a */ = {
+		974D4F12197981740072986E /* libpd-ios.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libpd-ios.a";
-			remoteRef = 9705B94B1976684C00CDC6EC /* PBXContainerItemProxy */;
+			remoteRef = 974D4F11197981740072986E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9705B94E1976684C00CDC6EC /* libpd-osx.a */ = {
+		974D4F14197981740072986E /* libpd-osx.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libpd-osx.a";
-			remoteRef = 9705B94D1976684C00CDC6EC /* PBXContainerItemProxy */;
+			remoteRef = 974D4F13197981740072986E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -269,7 +266,6 @@
 				970202711975D7FD000E043E /* World's smallest wine glass.jpg in Resources */,
 				971BA32A197064A20084CFD2 /* Main.storyboard in Resources */,
 				979A353319738807009E1479 /* Image.xcassets in Resources */,
-				978C5B8819783AC100FB7B9C /* pdfile.pd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,15 +299,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9705B9501976685800CDC6EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "libpd-ios";
-			targetProxy = 9705B94F1976685800CDC6EC /* PBXContainerItemProxy */;
-		};
 		971BA333197064A20084CFD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 971BA31E197064A20084CFD2 /* GlassRubbingApp.v1 */;
 			targetProxy = 971BA332197064A20084CFD2 /* PBXContainerItemProxy */;
+		};
+		974D4F161979819F0072986E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = 974D4F151979819F0072986E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,7 +415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GlassRubbingApp.v1/GlassRubbingApp.v1-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				USER_HEADER_SEARCH_PATHS = "/Users/cluster5/Documents/pd-for-ios/libpd/**";
+				USER_HEADER_SEARCH_PATHS = "/Users/cluster5/Desktop/singingGlassesApp/libpd/**";
 			};
 			name = Debug;
 		};
@@ -435,7 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GlassRubbingApp.v1/GlassRubbingApp.v1-Bridging-Header.h";
-				USER_HEADER_SEARCH_PATHS = "/Users/cluster5/Documents/pd-for-ios/libpd/**";
+				USER_HEADER_SEARCH_PATHS = "/Users/cluster5/Desktop/singingGlassesApp/libpd/**";
 			};
 			name = Release;
 		};
