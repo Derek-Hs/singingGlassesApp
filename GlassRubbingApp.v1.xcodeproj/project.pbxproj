@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		970202711975D7FD000E043E /* World's smallest wine glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970202701975D7FD000E043E /* World's smallest wine glass.jpg */; };
-		9702027A197662B5000E043E /* pdfile.pd in Resources */ = {isa = PBXBuildFile; fileRef = 97020279197662B5000E043E /* pdfile.pd */; };
 		9705B9511976685D00CDC6EC /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9705B94C1976684C00CDC6EC /* libpd-ios.a */; };
 		971BA325197064A20084CFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA324197064A20084CFD2 /* AppDelegate.swift */; };
 		971BA327197064A20084CFD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA326197064A20084CFD2 /* ViewController.swift */; };
@@ -16,6 +15,7 @@
 		971BA338197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971BA337197064A20084CFD2 /* GlassRubbingApp_v1Tests.swift */; };
 		971BA34D197065040084CFD2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971BA34C197065040084CFD2 /* AVFoundation.framework */; };
 		971BA3511970650D0084CFD2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971BA3501970650D0084CFD2 /* AudioToolbox.framework */; };
+		978C5B8819783AC100FB7B9C /* pdfile.pd in Resources */ = {isa = PBXBuildFile; fileRef = 978C5B8719783AC100FB7B9C /* pdfile.pd */; };
 		979A353319738807009E1479 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979A353219738807009E1479 /* Image.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		970202701975D7FD000E043E /* World's smallest wine glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World's smallest wine glass.jpg"; sourceTree = "<group>"; };
-		97020279197662B5000E043E /* pdfile.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pdfile.pd; sourceTree = "<group>"; };
 		9705B9461976684C00CDC6EC /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../../Documents/pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
 		971BA31F197064A20084CFD2 /* GlassRubbingApp.v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassRubbingApp.v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		971BA323197064A20084CFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		971BA34E197065070084CFD2 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		971BA3501970650D0084CFD2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		971BA354197065590084CFD2 /* GlassRubbingApp.v1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlassRubbingApp.v1-Bridging-Header.h"; sourceTree = "<group>"; };
+		978C5B8719783AC100FB7B9C /* pdfile.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pdfile.pd; path = ../../../../pdfile.pd; sourceTree = "<group>"; };
 		979A353219738807009E1479 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +124,7 @@
 		971BA321197064A20084CFD2 /* GlassRubbingApp.v1 */ = {
 			isa = PBXGroup;
 			children = (
-				97020279197662B5000E043E /* pdfile.pd */,
+				978C5B8719783AC100FB7B9C /* pdfile.pd */,
 				971BA324197064A20084CFD2 /* AppDelegate.swift */,
 				971BA326197064A20084CFD2 /* ViewController.swift */,
 				971BA328197064A20084CFD2 /* Main.storyboard */,
@@ -269,7 +269,7 @@
 				970202711975D7FD000E043E /* World's smallest wine glass.jpg in Resources */,
 				971BA32A197064A20084CFD2 /* Main.storyboard in Resources */,
 				979A353319738807009E1479 /* Image.xcassets in Resources */,
-				9702027A197662B5000E043E /* pdfile.pd in Resources */,
+				978C5B8819783AC100FB7B9C /* pdfile.pd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

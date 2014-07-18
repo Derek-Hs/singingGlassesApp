@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
-    
     @IBOutlet var glass1: UIButton
     
     @IBOutlet var ml1: UILabel
@@ -21,35 +19,57 @@ class ViewController: UIViewController {
     
     @IBOutlet var gesture1: UIPanGestureRecognizer
     
+    var freq: Float = 2007
+    
     @IBAction func gesture1action(sender: UIPanGestureRecognizer) {
-        audioController.active = true
-        //ml1.text = ""
-    }
-
-    //@IBOutlet strong var view: UIView
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // make sure touch is near rim
+        var coord = sender.translationInView(self.view)
+        if(coord.x<230 && coord.x>(-230) && coord.y<200 && coord.y>(-200)) {
+            PdBase.sendFloat(freq, toReceiver: "frequency")
+        }
+        else {
+            PdBase.sendFloat(0, toReceiver: "loudness")
+        }
         
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // stop playing when touch is gone
+        if(sender.numberOfTouches()==0) {
+            println("Should stop now!")
+            PdBase.sendFloat(0, toReceiver: "loudness")
+        }
+        
+        // set volume according to speed
+        var velocity = sender.velocityInView(self.view)
+        //println(velocity)
+        var speed = abs(velocity.x) + abs(velocity.y)
+        if(speed/3000 > 1) {
+            PdBase.sendFloat(1, toReceiver: "loudness")
+        }
+        else {
+            PdBase.sendFloat(Float(speed/3000), toReceiver: "loudness")
+        }
+        /*if(speed < 150) {
+            PdBase.sendFloat(0, toReceiver: "loudness")
+        }*/
     }
 
     @IBAction func slider1action(sender: UISlider) {
         var ml = Double(sender.value*200)
         ml1.text = String(Int(ml)) + " mL"
-        //hz1.text = String(Int((value*899)+1216)) + " Hz"
-        var r: Double = 3
+        var r: Double = 2.8
         var cm: Double = ml / (M_PI * r * r)
-        var freq = 0.94088 * pow(cm,4) - 16.1769 * pow(cm,3) + 54.6774 * pow(cm,2) - 45.3039 * cm + 2116.8
-        hz1.text = String(Int(freq)) + " Hz"
-        PdBase.sendFloat(Float(freq), toReceiver: "r slider")
+        var num = 0.94088 * pow(cm,4) - 16.1769 * pow(cm,3) + 54.6774 * pow(cm,2) - 45.3039 * cm + 2116.8
+        hz1.text = String(Int(num)) + " Hz"
+        freq = Float(num)
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
 }
 
